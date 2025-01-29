@@ -27,12 +27,14 @@ url: "https://blog.craftedbycode.co.uk" # the base hostname & protocol for your 
 twitter_username: shane_kingsley
 github_username:  shanekingsley
 google_analytics: G-V4SMJLBV0K
+github: [metadata]
 
 # Build settings
-remote_theme: pages-themes/cayman@v0.2.0
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
