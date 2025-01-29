@@ -24,10 +24,17 @@ description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Shane's Ramblings, a blog where I share my thoughts and experiences on coding, LEGO creations and whatever else is happening.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.craftedbycode.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+
 twitter_username: shane_kingsley
 github_username:  shanekingsley
+
 google_analytics: G-V4SMJLBV0K
+
 github: [metadata]
+
+# pagination settings
+paginate: 5
+paginate_path: "/posts/page:num/"
 
 # Build settings
 theme: jekyll-theme-clean-blog
